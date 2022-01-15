@@ -163,3 +163,42 @@
     color: white;
     text-align: center;
 }
+
+@media only screen and (max-width:688px){
+    .container{
+        width: 100%;
+    }
+    .collections {    
+        grid-template-columns: repeat(1,1fr);
+    }
+    .influencers{
+       display: block;
+     }
+     .book-part{
+         display:block;
+     }
+     .collection{
+         width:51.3vh;
+     }
+
+   
+  
+}
+@media only screen and (min-width:688px) and (max-width:992px) {
+    .container{
+        width: 100%;
+    }
+    .collections{
+        grid-template-columns: repeat(2,1fr);
+    }
+    .influencers{
+        display: block;
+    }
+    .book-part{
+        display:block;
+    }
+    .collection{
+        width:51.3vh;
+    }
+    
+}
