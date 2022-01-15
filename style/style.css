@@ -15,10 +15,11 @@
      display: flex;
      padding-left: 120px;
  }
-
  .main-camera{
     width: 440px;
     height: 414px;
+    padding-left: 60px;
+    padding-bottom: 60px;
 }
 .influencer{
  margin-top: 50px;
@@ -38,4 +39,50 @@
     
     /* Padding :
     10px, 24px, 10px, 24px; */
+}
+
+.section-title{
+    text-align: center;
+    margin-bottom: 50px;
+    
+}
+
+.contrainer{
+        background-color: #FFFFFF;
+        padding: 30px;
+        width: 870px;
+        margin-top: 21px;
+        border-radius: 5px;
+}
+
+.collections{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    row-gap: 24px;
+    grid-column-gap: 24px;
+    background-color:  #aaaaaa9c;
+    width: 950px;
+    border-radius: 50px;
+
+}
+.collection{
+    background-color: white;
+   
+    
+}
+.detail{
+    padding-left: 20px;
+}
+.collection .banner img{
+    height: 256px;
+    width: 300px;
+}
+.fa-star{
+    font-size: 12px;
+}
+.fa-star.filled{
+    color: yellow;
+}
+.fa-star.empty{
+    color: #AEAEAE;
 }
