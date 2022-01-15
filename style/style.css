@@ -1,0 +1,41 @@
+/*.........................
+ font style 
+ ..........................*/
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+
+ body{
+    font-family: 'Poppins', sans-serif;
+ }
+
+ header h2{
+     padding-left: 120px;
+ }
+
+ .influencers{
+     display: flex;
+     padding-left: 120px;
+ }
+
+ .main-camera{
+    width: 440px;
+    height: 414px;
+}
+.influencer{
+ margin-top: 50px;
+}
+.influencer p{
+    width: 505px;
+    height: 60.9px;
+    margin-bottom: 2em;
+}
+
+.influencer a{
+    text-decoration: none;
+    background-color:  #E02C6D;
+    color: white;
+    border-radius: 41px;
+    padding: 10px;
+    
+    /* Padding :
+    10px, 24px, 10px, 24px; */
+}
