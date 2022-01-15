@@ -86,3 +86,63 @@
 .fa-star.empty{
     color: #AEAEAE;
 }
+#see-more{
+    text-decoration: none;
+    color:  #E02C6D;
+    padding-left: 900px;
+
+}
+.remon{
+    color: black;
+}
+.remon-details{
+    color: black;
+}
+.remon-icon{
+    text-decoration: none;
+    background-color:  #E02C6D;
+    color: white;
+    border-radius: 41px;
+    padding: 10px;
+
+}
+.book-section .remon-list img{
+ 
+        height: 320px;
+        width: 80vh;
+        padding-right: 20vh;
+     
+}
+.book-section{
+    display: flex;
+    margin-top: 120px;
+    
+}
+.remon-padding{
+    width:60vh;
+    padding-right: 3vh;
+    padding-left: 0;
+}
+.book-part{
+    display: flex;
+    padding-left: 5vh;
+    margin-top: 5vh;
+}
+.book-list-img{
+    padding-right: 2vh;
+}
+.paragraph-part{
+    margin-left: 4vh;
+    width: 100vh;
+}
+.paragraph-part a {
+    text-decoration: none;
+    background-color:  #E02C6D;
+    color: white;
+    border-radius: 41px;
+    padding: 10px;
+}
+.see-more-part{
+    float: right;
+    margin-top: 1vh;
+}
