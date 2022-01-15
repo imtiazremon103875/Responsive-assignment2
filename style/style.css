@@ -16,8 +16,8 @@
      padding-left: 120px;
  }
  .main-camera{
-    width: 440px;
-    height: 414px;
+    /* width: 440px;
+    height: 414px; */
     padding-left: 60px;
     padding-bottom: 60px;
 }
@@ -26,7 +26,7 @@
 }
 .influencer p{
     width: 505px;
-    height: 60.9px;
+    /* height: 60.9px; */
     margin-bottom: 2em;
 }
 
@@ -51,8 +51,9 @@
         background-color: #FFFFFF;
         padding: 30px;
         width: 870px;
-        margin-top: 21px;
+        /* margin-top: 21px; */
         border-radius: 5px;
+        padding-left: 120px;
 }
 
 .collections{
@@ -131,6 +132,7 @@
     display: flex;
     padding-left: 5vh;
     margin-top: 5vh;
+    padding-left: 120px;
 }
 .book-list-img{
     padding-right: 2vh;
@@ -180,8 +182,13 @@
      .collection{
          width:51.3vh;
      }
-
-   
+     .section-title{
+        text-align: left;
+    }
+    .paragraph-part{
+        width:50vh;
+    }
+  
   
 }
 @media only screen and (min-width:688px) and (max-width:992px) {
@@ -200,5 +207,19 @@
     .collection{
         width:51.3vh;
     }
+    .section-title{
+        text-align: left;
+    }
+    .paragraph-part{
+        width:70vh;
+    }
     
+    
+}
+
+.footer-section h3,h5,h6{
+    font-weight: 500;
+}
+.main-camera:hover{
+    cursor: pointer;
 }
