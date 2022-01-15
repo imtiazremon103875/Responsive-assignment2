@@ -60,18 +60,22 @@
     grid-template-columns: repeat(3,1fr);
     row-gap: 24px;
     grid-column-gap: 24px;
-    background-color:  #aaaaaa9c;
+    /* background-color:  #aaaaaa9c; */
     width: 950px;
-    border-radius: 50px;
+    /* border-radius: 50px; */
 
 }
 .collection{
     background-color: white;
+    box-shadow: 2px 5px 10px grey;
+    border-radius: 5px;
    
     
 }
 .detail{
-    padding-left: 20px;
+    /* padding-left: 20px; */
+    /* padding-right: 1vh; */
+    padding: 2vh 2vh;
 }
 .collection .banner img{
     height: 256px;
@@ -143,6 +147,19 @@
     padding: 10px;
 }
 .see-more-part{
-    float: right;
+    display: flex;
+    justify-content: flex-end;
     margin-top: 1vh;
+    width: 950px;
+   
+}
+.see-more-part a {
+    text-decoration: none;
+    color:  #E02C6D;
+}
+
+.footer-section{
+    background-color: black;
+    color: white;
+    text-align: center;
 }
